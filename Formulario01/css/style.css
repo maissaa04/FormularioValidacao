@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1E1E1E;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* fundo */
+}
+ h1{
+     position: absolute;
+     width: 328px;
+     height: 75px;
+        left: 160px;
+        top: 80px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 75px;
+        color: #FFFFFF;
+        /* titulo */
+}
+.img{
+    position: absolute;
+width: 576px;
+height: 476.48px;
+left: 160px;
+top: 274px;
+}
+.container .input-entrada{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    position: absolute;
+    width: 290px;
+    height: 47px;
+    left: 74px;
+    top: 91px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    /* email */
+}
+    
+.container .input-entrada2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    position: absolute;
+    width: 290px;
+    height: 48px;
+    left: 73px;
+    top: 150px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    /* senha */
+}
+
+main.container {
+    position: absolute;
+    width: 440px;
+    height: 476px;
+    left: 800px;
+    top: 274px;
+    
+    background: #F9F9FB;
+    border-radius: 4px;
+    /* caixa */
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+    top: 50px;
+    /* sub titulo */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* formulario */
+}
+
+.container .btn-01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    position: absolute;
+    width: 293px;
+    height: 48px;
+    left: 72px;
+    top: 238px;
+    background: #7180B9;
+    border-radius: 4px;
+    /* botão login */
+}
+
+
+.container .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    position: absolute;
+    width: 153px;
+    height: 48px;
+    left: 213px;
+    top: 351px;
+    background: #7180B9;
+    border-radius: 4px;
+    /* botão git */
+}
+
+hr{
+    position: absolute;
+    width: 124px;
+    height: 0px;
+    left: 161px;
+    top: 216px;
+    border: 2px solid rgba(0, 0, 0, 0.32);
+    /* linha */
+}
+
+.container p{
+    position: absolute;
+    width: 119px;
+    height: 23px;
+    left: 79px;
+    top: 364px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+    /* entre com */
+}
